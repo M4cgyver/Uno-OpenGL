@@ -1,0 +1,29 @@
+#version 150
+
+in	vec3 		position;
+in	vec2 		textureCoordinates;
+
+out	vec2 		pass_textureCoordinates;
+out float		vertexAffine;
+
+uniform	mat4 	transformationMatrix;
+uniform	mat4 	projectionMatrix;
+uniform	mat4 	viewMatrix;
+
+// vertex: the vertex to be snapped (needs to be in projection-space)
+// resolution: the lower resolution, e.g. if my screen resolution is 1280x720, I might choose 640x320
+vec4 snap(vec4 vertex, vec2 resolution)
+{
+    vec4 snappedPos = vertex;
+    snappedPos.xyz = vertex.xyz / vertex.w; // convert to normalised device coordinates (NDC)
+    snappedPos.xy = floor(resolution * snappedPos.xy) / resolution; // snap the vertex to the lower-resolution grid
+    snappedPos.xyz *= vertex.w; // convert back to projection-space
+    return snappedPos;
+}
+
+void main(void){
+
+	gl_Position = projectionMatrix * viewMatrix * transformationMatrix * vec4(position,1.0);
+	gl_Position = snap(gl_Position, vec2(800,600));
+	pass_textureCoordinates = textureCoordinates;
+}

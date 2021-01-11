@@ -1,0 +1,15 @@
+#version 150
+ 
+in	vec3	secondaryColor;
+in	vec2	pass_textureCoordinates;
+
+out	vec4	out_Color;
+
+uniform sampler2D modelTexture;
+
+void main(void){
+
+	out_Color = texture(modelTexture,pass_textureCoordinates);
+	
+	if(out_Color.x == 1 && out_Color.y == 0 && out_Color.z == 1) out_Color = vec4(secondaryColor,1);
+}

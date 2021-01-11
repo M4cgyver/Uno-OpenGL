@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.net.ConnectException"/>
+    <fullyQualifiedTypeName name="java.net.UnknownHostException"/>
+    <fullyQualifiedTypeName name="Card"/>
+    <fullyQualifiedTypeName name="Lobby"/>
+    <fullyQualifiedTypeName name="Internet.SocketServer.SocketServerInterface"/>
+    <fullyQualifiedTypeName name="Internet.SocketServer.StructClient"/>
+    <fullyQualifiedTypeName name="java.net.ServerSocket"/>
+    <fullyQualifiedTypeName name="Deck.Data"/>
+    <fullyQualifiedTypeName name="lwjgl3.lwjgl3"/>
+    <fullyQualifiedTypeName name="org.newdawn.slick.opengl.TextureLoader"/>
+    <fullyQualifiedTypeName name="org.newdawn.slick.opengl.Texture"/>
+    <fullyQualifiedTypeName name="lwjgl3.Loader"/>
+    <fullyQualifiedTypeName name="org.lwjgl.opengl.GL11"/>
+    <fullyQualifiedTypeName name="lwjgl3.ModleRaw"/>
+    <fullyQualifiedTypeName name="lwjgl3.GLTexture"/>
+    <fullyQualifiedTypeName name="org.lwjglx.util.vector.Matrix4f"/>
+    <fullyQualifiedTypeName name="org.lwjgl.BufferUtils"/>
+    <fullyQualifiedTypeName name="java.nio.FloatBuffer"/>
+    <fullyQualifiedTypeName name="org.lwjgl.opengl.GL20"/>
+    <fullyQualifiedTypeName name="lwjgl3.Camera"/>
+    <fullyQualifiedTypeName name="resources.ResourceManager"/>
+    <fullyQualifiedTypeName name="lwjgl3.ModleTexture"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="lwjgl3.Entity"/>
+    <fullyQualifiedTypeName name="Lobby.PlayerData"/>
+    <fullyQualifiedTypeName name="lwjgl3.CameraPov"/>
+    <fullyQualifiedTypeName name="Lobby.PHASE"/>
+    <fullyQualifiedTypeName name="lwjgl3.Input"/>
+    <fullyQualifiedTypeName name="org.lwjgl.glfw.GLFW"/>
+    <fullyQualifiedTypeName name="lwjgl3.Shader"/>
+    <fullyQualifiedTypeName name="lwjgl3.Maths"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.lwjglx.util.vector.Vector3f"/>
+    <fullyQualifiedTypeName name="org.lwjglx.util.WaveData"/>
+    <fullyQualifiedTypeName name="org.lwjgl.openal.AL10"/>
+    <fullyQualifiedTypeName name="lwjgl3.Audio"/>
+    <fullyQualifiedTypeName name="org.lwjglx.openal.ALC10"/>
+    <fullyQualifiedTypeName name="java.nio.ByteBuffer"/>
+    <fullyQualifiedTypeName name="org.lwjgl.openal.AL"/>
+    <fullyQualifiedTypeName name="org.lwjglx.openal.AL10"/>
+    <fullyQualifiedTypeName name="org.lwjglx.openal.AL"/>
+</qualifiedTypeNameHistroy>

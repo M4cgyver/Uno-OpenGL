@@ -1,0 +1,15 @@
+#version 150
+
+in	vec3 		position;
+in	vec2 		textureCoordinates;
+
+out	vec2 		pass_textureCoordinates;
+
+uniform	mat4 	transformationMatrix;
+uniform	mat4 	projectionMatrix;
+uniform	mat4 	viewMatrix;
+
+void main(void){
+
+	pass_textureCoordinates = textureCoordinates;
+}
